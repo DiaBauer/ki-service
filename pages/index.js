@@ -1,10 +1,11 @@
 import Head from 'next/head'
-import NavBar from '@/components/NavBar'
-import Hero from '@/components/Hero'
-import AnimatedBackground from '@/components/AnimatedBackground'
-import AgentCard from '@/components/AgentCard'
-import Reasons from '@/components/Reasons'
-import Footer from '@/components/Footer'
+import NavBar from '../components/NavBar'
+import Hero from '../components/Hero'
+import AnimatedBackground from '../components/AnimatedBackground'
+import AgentCard from '../components/AgentCard'
+import Reasons from '../components/Reasons'
+import Footer from '../components/Footer'
+
 import {motion} from 'framer-motion'
 
 export default function Home(){return (<>
